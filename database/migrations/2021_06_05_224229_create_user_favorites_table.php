@@ -13,7 +13,7 @@ class CreateUsersFavoritesTable extends Migration
      */
     public function up()
     {
-        Schema::create('users_favorites', function (Blueprint $table) {
+        Schema::create('user_favorites', function (Blueprint $table) {
             $table->id();
             $table->integer('id_user');
             $table->integer('id_barber');
